@@ -1,4 +1,26 @@
 # Cyrius: WGS-based CYP2D6 genotyper
+
+
+## Overview of long-term OSS maintenance fork
+
+Cyrius was converted from open (GPL 3 or Apache 2) to Polyform Strict
+licensing after v1.1.1. This fork is designed to preserve the open source
+codebase used in the releases up to and including v1.1.1, and to provide
+a repo for maintenance patches moving forward.
+
+### Licensing
+
+As of v1.1.1, licensing of the codebase was ambiguous. The LICENSE.txt
+file included in the repository was Apache 2, but all source files had
+GPL 3 headers for all contributions. This configuration of licensing
+[is not valid](https://www.apache.org/licenses/GPL-compatibility.html), as
+GPL 3 and Apache 2 are not compatible in that direction. As such, to preserve
+the license structure of the repository and the copyleft nature of GPL,
+the license file is being replaced with GPL 3 for all releases after v1.1.1.
+
+
+## Original overview from Cyrius repo
+
 Cyrius is a tool to genotype CYP2D6 from a whole-genome sequencing (WGS) BAM file. Cyrius uses a novel method to solve the problems caused by the high sequence similarity with the pseudogene paralog CYP2D7 and thus is able to detect all star alleles, particularly those that contain structural variants, accurately. Please refer to our [paper](https://www.nature.com/articles/s41397-020-00205-5) for details about the method.   
 
 ## Running the program
