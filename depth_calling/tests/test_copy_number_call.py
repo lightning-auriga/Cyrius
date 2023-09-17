@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 #
 # Cyrius: CYP2D6 genotyper
+#
+#
+# Current long term maintenance of open source fork (post v1.1.1):
+# Copyright 2023 Lightning Auriga
+#
+# Original copyright notice (through v1.1.1):
 # Copyright (c) 2019-2020 Illumina, Inc.
 #
 # Author: Xiao Chen <xchen2@illumina.com>
